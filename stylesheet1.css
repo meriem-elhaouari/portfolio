@@ -6,7 +6,7 @@
 {
     display: flex; 
     align-items: center;
-    background-image : url(Assets/hero.png);
+    background-image : url(Assets/Hero.png);
     width: 100% auto;
     height: 669px;
     gap:56px;
