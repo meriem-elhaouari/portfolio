@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navb
+{
+    background-color: white;
+    top: 0;
+    width: auto;
+    padding: 10px 20px;
+    box-shadow: 0 5px 10px #f1f1f1;
+    margin:0;
+    display: flex;
+    justify-content:space-between ;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+#dismenu:hover{
+    cursor: pointer;
+    color: rgb(240, 240, 240);
+
+}
+
+
+#menu{
+
+    
+    width: 400px;
+    height: 340px; ;
+    justify-content:flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+
+}
+.heading{
+    padding: 0;
+    color: rgb(150, 150, 150);
+}
+
+.menubut{
+    border: 0;
+ 
+    background-color: #ffffff;
+}
+
+ul.menuELE{
+    color: black;
+    /* text-decoration: none; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    gap: 8px;
+    margin: 0;
+    /* border :#000000 10px solid; */
+
+}
+
+
+
+
+
+
+
+
+.test2{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   
+}
+
+
+
+/* General styling for the menu container */
+.menuELE {
+    list-style-type: none; /* Remove default bullets */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #ffffff; /* Background color for the menu bar */
+    font-family: Arial, sans-serif; /* Font styling */
+  }
+  
+  /* Styling for the individual list items */
+  .menuELE .buttonhover {
+    margin: 0px; /* Add spacing between items */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Anchor tag styling */
+  .menuELE .buttonhover a {
+    text-decoration: none; /* Remove underline */
+    height: 40px; /* Set height for the link */
+   
+    color: black; /* Text color */
+    display: flex; /* Enable flexbox */
+   padding-left: 10px;
+    align-items: center; /* Center content vertically */
+    border-radius: 5px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  
+  /* Hover effect for anchor tags */
+  .menuELE .buttonhover a:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: white; /* Keep text color white */
+  }
+  
+  /* Optional: Add active state styling */
+  .menuELE .buttonhover a:active {
+    background-color: #0056b3; /* Darker shade for active state */
+    transform: scale(1.05); /* Slight shrink on click */
+  }
+  
